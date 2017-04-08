@@ -108,7 +108,7 @@
                         <div class="icon text-center">
                             <i class="mdi-action-settings"></i>
                         </div>
-                        <h3>Cross-platform including web</h3>
+                        <h3>In-place editor</h3>
                     </div>
                 </div>
 
@@ -116,9 +116,9 @@
                 <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="features-content">
                         <div class="icon text-center">
-                            <i class="mdi-action-done-all"></i>
+                            <i class="mdi-action-alarm-on"></i>
                         </div>
-                        <h3>Manage your data without struggling with queries</h3>
+                        <h3>Live monitoring</h3>
                     </div>
                 </div>
 
@@ -128,7 +128,7 @@
                         <div class="icon text-center">
                             <i class="mdi-image-blur-linear"></i>
                         </div>
-                        <h3>Intuitive design, easy to use</h3>
+                        <h3>Intuitive design</h3>
                     </div>
                 </div>
 
@@ -136,9 +136,9 @@
                 <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="1000ms">
                     <div class="features-content">
                         <div class="icon text-center">
-                            <i class="mdi-communication-business"></i>
+                            <i class="mdi-device-data-usage"></i>
                         </div>
-                        <h3>Covers all level needs for a wide range, from beginner to DBA.</h3>
+                        <h3>Desktop - Web</h3>
                     </div>
                 </div>
             </div>
@@ -156,7 +156,7 @@
                         <div class="icon">
                             <i class="mdi-action-get-app"></i>
                         </div>
-                        <h3 class="timer">39000</h3>
+                        <h3 id="docker_pull_count" class="timer">150000</h3>
                         <hr>
                         <h5>
                             Docker pulls
@@ -169,7 +169,7 @@
                         <div class="icon">
                             <i class="mdi-action-grade"></i>
                         </div>
-                        <h3 class="timer">1610</h3>
+                        <h3 id="star_count" class="timer">1650</h3>
                         <hr>
                         <h5>
                             Github stars
@@ -182,7 +182,7 @@
                         <div class="icon">
                             <i class="fa fa-github fa-4x"></i>
                         </div>
-                        <h3 class="timer">6345</h3>
+                        <h3 id="download_count" class="timer">100000</h3>
                         <hr>
                         <h5>
                             Github downloads
@@ -639,9 +639,10 @@
                             src="img/mongoclient_ss/6.png"></a>
                 </div>
             </div>
+        </div>
     </section>
 
-    <!--Planned Features Section-->
+    <!--Planned Features Section
     <section id="timeline">
         <div class="container">
             <div class="row">
@@ -649,13 +650,13 @@
                     ROADMAP</h3>
                 <div class="timeline">
                     <ul class="timeline-items">
-                        <li class="is-hidden timeline-item"> <!-- Normal block, positionned to the left -->
+                        <li class="is-hidden timeline-item">
                             <h4>Manage shards, replica sets from UI (Other tools PAID, or NO)</h4>
                         </li>
-                        <li class="is-hidden timeline-item inverted"> <!-- Normal block, positionned to the right  -->
+                        <li class="is-hidden timeline-item inverted">
                             <h4>Data comparison between collections, databases, connections (Other tools PAID)</h4>
                         </li>
-                        <li class="is-hidden timeline-item "> <!-- Centered block, positionned in the middle -->
+                        <li class="is-hidden timeline-item ">
                             <h4>MongoDB vulnerability scanner (Other tools NO)</h4>
                         </li>
                         <li class="is-hidden timeline-item inverted">
@@ -685,7 +686,7 @@
 
 
     <!--Pricing Cards Section-->
-    <section id="pricing" class="section main-feature-gray">
+    <section id="pricing" class="section">
         <div class="container">
             <div class="section-header">
                 <h1 class="section-title title-small text-center wow bounce" data-wow-duration="1000ms"
@@ -934,18 +935,6 @@
             }
         });
     }, 1000);
-</script>
-<script>
-    setInterval(function () {
-        $.ajax({
-            url: 'docker_pull_count',
-            type: 'post',
-            success: function (output) {
-                console.log(output);
-            }
-        });
-    }, 3000);
-
 </script>
 </body>
 
