@@ -14,7 +14,7 @@
   -webkit-transition: opacity 0.1s; -webkit-transition-delay: 0s; -moz-transition: opacity 0.1s 0s; -o-transition: opacity 0.1s 0s; transition: opacity 0.1s 0s; }
 .team-wrapper-overlay .social-icons { position: absolute; bottom: 20px; width: 100%; opacity: 0; -webkit-transition: opacity 0.1s; -webkit-transition-delay: 0s; -moz-transition: opacity 0.1s 0s; -o-transition: opacity 0.1s 0s; transition: opacity 0.1s 0s; -webkit-backface-visibility: hidden; padding: 0 20px; }
 .team-wrapper-overlay .social-icons a { color: #fff; }
-.team-wrapper-big:hover .team-wrapper-overlay, .team-wrapper-small:hover .team-wrapper-overlay { background: #1fa97f; }
+.team-wrapper-big:hover .team-wrapper-overlay, .team-wrapper-small:hover .team-wrapper-overlay { background: #1fa97f; opacity: 0.8 }
 
 .team-social {
   margin-left: 0;
