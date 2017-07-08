@@ -1,5 +1,5 @@
-## Mongoclient Website
-Keeps html pages and assets of the main page of Mongoclient (www.mongoclient.com)
+## Nosqlclient Website
+Keeps html pages and assets of the main page of Nosqlclient (https://www.nosqlclient.com)
 
 
 ### License
